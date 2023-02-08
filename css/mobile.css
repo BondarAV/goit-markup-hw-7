@@ -1,0 +1,18 @@
+@media screen and (min-width: 428px) {
+  header .container {
+    width: 428px;
+  }
+
+  .menu-container {
+    width: 428px;
+    margin: 0 auto;
+  }
+
+  .menu .tel {
+    font-size: 36px;
+  }
+
+  .menu .icon-list {
+    gap: 56px;
+  }
+}

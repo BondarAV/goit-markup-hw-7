@@ -19,6 +19,9 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/tablet.css" />
+    <link rel="stylesheet" href="./css/desktop.css" />
   </head>
 
   <body class="body">
@@ -27,7 +30,8 @@
         <a class="header-logo" href="./index.html"
           >Web<span class="logo-part">Studio</span></a
         >
-        <nav>
+
+        <nav class="nav">
           <ul class="nav-list">
             <li class="item">
               <a class="link index-current" href="./index.html">Studio</a>
@@ -54,20 +58,101 @@
             <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
           </li>
         </ul>
+
+        <div class="mobile-nav">
+          <button class="hamburger-btn" type="button" data-open-menu>
+            <svg class="hamburger">
+              <use href="./images/icons.svg#icon_hamburger"></use>
+            </svg>
+          </button>
+
+          <div class="menu is-hidden" data-menu>
+            <div class="menu-container">
+              <button class="exit" type="button" data-close-menu>
+                <svg class="vector">
+                  <use href="./images/icons.svg#icon_vector"></use>
+                </svg>
+              </button>
+
+              <nav>
+                <ul class="nav-list">
+                  <li class="item">
+                    <a class="link index-current" href="./index.html">Studio</a>
+                  </li>
+
+                  <li class="item">
+                    <a class="link" href="./portfolio.html">Portfolio</a>
+                  </li>
+
+                  <li class="item">
+                    <a class="link" href="./contacts.html">Contacts</a>
+                  </li>
+                </ul>
+              </nav>
+
+              <div class="menu-bottom">
+                <ul class="contacts-list">
+                  <li class="item">
+                    <a class="tel" href="tel:+110001111111"
+                      >+11 (000) 111-11-11</a
+                    >
+                  </li>
+
+                  <li class="item">
+                    <a class="email" href="mailto:info@devstudio.com"
+                      >info@devstudio.com</a
+                    >
+                  </li>
+                </ul>
+
+                <ul class="icon-list">
+                  <li>
+                    <a class="link">
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon_instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link">
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon_twitter"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link">
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon_facebook"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a class="link">
+                      <svg class="icon">
+                        <use href="./images/icons.svg#icon_linkedin"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
     <main class="main">
-      <section class="hero">
+      <!-- <section class="hero">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
           <button class="button" type="button" data-open-modal>
             Order Service
           </button>
         </div>
-      </section>
+      </section> -->
 
-      <section class="benefits-section">
+      <!-- <section class="benefits-section">
         <div class="container">
           <h2 class="visually-hidden">Benefits of our service</h2>
 
@@ -133,9 +218,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="what-are-we-doing-section">
+      <!-- <section class="what-are-we-doing-section">
         <div class="container">
           <h2 class="title">What are we doing</h2>
 
@@ -168,9 +253,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="our-team-section">
+      <!-- <section class="our-team-section">
         <div class="container">
           <h2 class="title">Our team</h2>
 
@@ -420,9 +505,9 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <section class="customers-section">
+      <!-- <section class="customers-section">
         <div class="container">
           <h3 class="title">Customers</h3>
 
@@ -471,10 +556,10 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container">
         <div class="footer-container-1">
           <a class="footer-logo" href="./index.html"
@@ -543,7 +628,7 @@
           </form>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
     <div class="backdrop is-hidden" data-backdrop>
       <div class="modal">
@@ -649,5 +734,6 @@
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>

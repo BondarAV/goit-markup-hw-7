@@ -1,0 +1,15 @@
+@media screen and (min-width: 1200px) {
+  header .container {
+    width: 1152px;
+  }
+
+  .container {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+
+  .contacts-list {
+    flex-direction: row;
+    gap: 40px;
+  }
+}
