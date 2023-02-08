@@ -1,9 +1,12 @@
 @media screen and (min-width: 1200px) {
-  header .container {
+  .container {
     width: 1152px;
+    padding-left: 12px;
+    padding-right: 12px;
   }
 
-  .container {
+  header .container {
+    width: 1152px;
     padding-left: 12px;
     padding-right: 12px;
   }
@@ -11,5 +14,33 @@
   .contacts-list {
     flex-direction: row;
     gap: 40px;
+  }
+
+  .hero {
+    height: 600px;
+    padding-top: 188px;
+    padding-bottom: 188px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-desk.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-desk@2x.jpg);
+    }
+  }
+
+  .hero .hero-title {
+    margin-bottom: 48px;
   }
 }

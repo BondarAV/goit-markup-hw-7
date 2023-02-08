@@ -1,9 +1,10 @@
 @media screen and (min-width: 768px) {
-  header .container {
+  .container {
     width: 768px;
   }
 
   header .container {
+    width: 768px;
     padding-top: 0;
     padding-bottom: 0;
 
@@ -105,5 +106,37 @@
 
     border-radius: 2px;
     background-color: var(--dark-accent-color);
+  }
+
+  .hero {
+    height: 436px;
+    padding-top: 112px;
+    padding-bottom: 108px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab@2x.jpg);
+    }
+  }
+
+  .hero .hero-title {
+    width: 496px;
+    margin-bottom: 40px;
+
+    font-size: 56px;
+    line-height: 1.07;
   }
 }

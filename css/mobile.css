@@ -1,4 +1,8 @@
 @media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+
   header .container {
     width: 428px;
   }
@@ -14,5 +18,14 @@
 
   .menu .icon-list {
     gap: 56px;
+  }
+
+  .hero .hero-title {
+    width: 320px;
+    font-size: 36px;
+  }
+
+  .modal {
+    width: 408px;
   }
 }
