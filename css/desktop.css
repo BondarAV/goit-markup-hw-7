@@ -118,4 +118,17 @@
   .customers-section .container {
     width: 1152px;
   }
+
+  .footer .container {
+    width: 1152px;
+    gap: 0;
+  }
+
+  .footer .footer-container-1 {
+    margin-right: 120px;
+  }
+
+  .footer .footer-container-2 {
+    margin-right: 80px;
+  }
 }

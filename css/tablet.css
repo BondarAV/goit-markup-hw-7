@@ -167,7 +167,11 @@
   }
 
   .customers-section .container {
-    width: 568px;
+    width: 584px;
+  }
+
+  .customers-section .list {
+    column-gap: 24px;
   }
 
   .customers-section .list li {
@@ -176,5 +180,45 @@
 
   .customers-section .link {
     width: 168px;
+  }
+
+  .footer .container {
+    width: 584px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    column-gap: 24px;
+  }
+
+  .footer-container-1 {
+    align-items: start;
+  }
+
+  .footer-container-2 {
+    align-items: start;
+  }
+
+  .footer-container-3 {
+    width: auto;
+  }
+
+  .footer .footer-label {
+    align-items: start;
+    width: auto;
+    margin-bottom: 0;
+  }
+
+  .footer .form {
+    flex-direction: row;
+    align-items: end;
+    width: 100%;
+  }
+
+  .footer .footer-label {
+    margin-right: 24px;
+  }
+
+  .footer .footer-input {
+    width: 264px;
   }
 }

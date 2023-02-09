@@ -599,6 +599,8 @@ header .container {
   color: var(--accent-color);
 }
 
+/*-------------FOOTER--------------*/
+
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
@@ -636,6 +638,9 @@ header .container {
 
 .footer .container {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 72px;
 }
 
 .footer .list {
@@ -682,17 +687,26 @@ header .container {
   fill: var(--main-background-color);
 }
 
-.footer .footer-container-1 {
-  margin-right: 120px;
+.footer-container-1,
+.footer-container-2,
+.footer-container-3 .form,
+.footer-label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.footer .footer-container-2 {
-  margin-right: 80px;
+.footer-container-3 {
+  width: 100%;
+}
+
+.footer-label {
+  width: 100%;
+  margin-bottom: 16px;
 }
 
 .footer .form {
-  display: flex;
-  align-items: end;
+  width: 100%;
 }
 
 .footer .subscribe-text {
@@ -708,7 +722,7 @@ header .container {
 }
 
 .footer .footer-input {
-  width: 264px;
+  width: 100%;
   height: 40px;
   font-weight: 12px;
   line-height: 1.16;
@@ -738,10 +752,6 @@ header .container {
   letter-spacing: 0.04em;
 
   color: rgba(255, 255, 255, 0.6);
-}
-
-.footer .footer-label {
-  margin-right: 24px;
 }
 
 .footer .subscribe-button {
