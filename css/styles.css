@@ -451,32 +451,14 @@ header .container {
 }
 
 .what-are-we-doing-section {
-  padding-bottom: 120px;
+  display: none;
 }
 
-.what-are-we-doing-section .list {
-  display: flex;
-}
-
-.what-are-we-doing-section .item:not(:last-child) {
-  margin-right: 24px;
-}
-
-.what-are-we-doing-section .title {
-  margin-bottom: 72px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-
-  letter-spacing: 0.02em;
-
-  text-align: center;
-}
+/*------------OUR-TEAM-SECTION----------*/
 
 .our-team-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 128px;
 
   background-color: var(--main-background-color);
 }
@@ -495,24 +477,19 @@ header .container {
 
 .our-team-list {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
 }
 
 .our-team-section .wrapper {
   padding: 32px 16px;
 
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
   background-color: var(---white-color);
-}
-
-.our-team-list .item {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.our-team-list .item:not(:last-child) {
-  margin-right: 24px;
 }
 
 .our-team-list .title {

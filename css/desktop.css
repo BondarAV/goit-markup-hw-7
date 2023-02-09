@@ -79,4 +79,34 @@
   .benefits-section .paragraph {
     font-weight: 400;
   }
+
+  .what-are-we-doing-section {
+    display: block;
+    padding-bottom: 120px;
+  }
+
+  .what-are-we-doing-section .list {
+    display: flex;
+  }
+
+  .what-are-we-doing-section .item:not(:last-child) {
+    margin-right: 24px;
+  }
+
+  .what-are-we-doing-section .title {
+    margin-bottom: 72px;
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    letter-spacing: 0.02em;
+
+    text-align: center;
+  }
+
+  .our-team-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
