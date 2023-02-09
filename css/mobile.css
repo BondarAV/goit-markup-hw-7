@@ -25,6 +25,14 @@
     font-size: 36px;
   }
 
+  .customers-section .list li {
+    width: calc((100% - 16px) / 2);
+  }
+
+  .customers-section .link {
+    width: 190px;
+  }
+
   .modal {
     width: 408px;
   }

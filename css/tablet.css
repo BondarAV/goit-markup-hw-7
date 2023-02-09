@@ -165,4 +165,16 @@
     row-gap: 64px;
     column-gap: 24px;
   }
+
+  .customers-section .container {
+    width: 568px;
+  }
+
+  .customers-section .list li {
+    width: auto;
+  }
+
+  .customers-section .link {
+    width: 168px;
+  }
 }
