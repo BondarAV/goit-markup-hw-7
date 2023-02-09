@@ -43,4 +43,40 @@
   .hero .hero-title {
     margin-bottom: 48px;
   }
+
+  .benefits-section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .element {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 264px;
+    height: 112px;
+
+    margin-bottom: 8px;
+
+    background-color: var(--main-background-color);
+    border-radius: 4px;
+  }
+
+  .benefits-section .list {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .benefits-section .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+
+  .benefits-section .paragraph {
+    font-weight: 400;
+  }
 }

@@ -139,4 +139,17 @@
     font-size: 56px;
     line-height: 1.07;
   }
+
+  .benefits-section .list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .benefits-section .item {
+    display: inline-block;
+    width: 356px;
+    align-items: start;
+  }
 }

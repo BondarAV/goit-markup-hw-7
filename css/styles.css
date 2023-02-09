@@ -366,6 +366,8 @@ header .container {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
+/*---------------BENEFITS-SECTION--------------*/
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -381,7 +383,7 @@ header .container {
 }
 
 .element {
-  display: flex;
+  display: none;
   justify-content: center;
   align-items: center;
 
@@ -395,16 +397,20 @@ header .container {
 }
 
 .benefits-section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .benefits-section .list {
   display: flex;
+  flex-direction: column;
+  gap: 72px;
 }
 
-.benefits-section .item:not(:last-child) {
-  margin-right: 24px;
+.benefits-section .item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .benefits-section .icon {
@@ -413,7 +419,16 @@ header .container {
   height: 64px;
 }
 
-.benefits-section .title,
+.benefits-section .title {
+  margin-bottom: 8px;
+
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+
+  letter-spacing: 0.02em;
+}
+
 .portfolio-section .title {
   margin-bottom: 8px;
 
@@ -422,6 +437,10 @@ header .container {
   line-height: 1.2;
 
   letter-spacing: 0.02em;
+}
+
+.benefits-section .paragraph {
+  font-weight: 500;
 }
 
 .benefits-section .paragraph,
