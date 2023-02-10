@@ -1176,6 +1176,10 @@ header .container {
   letter-spacing: 0.04em;
 }
 
+.privacy-policy-checkbox span {
+  width: 230px;
+}
+
 .privacy-policy-checkbox .privacy-policy {
   text-decoration: underline;
   color: var(--accent-color);

@@ -44,4 +44,8 @@
   .modal {
     width: 408px;
   }
+
+  .privacy-policy-checkbox span {
+    width: auto;
+  }
 }
