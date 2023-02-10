@@ -131,4 +131,25 @@
   .footer .footer-container-2 {
     margin-right: 80px;
   }
+
+  .portfolio-section {
+    padding-top: 96px;
+    padding-bottom: 120px;
+  }
+
+  .portfolio-section .portfolio-list {
+    row-gap: 48px;
+  }
+
+  .portfolio-section .container {
+    width: 1152px;
+  }
+
+  .portfolio-list .link {
+    width: 360px;
+  }
+
+  .tab-list {
+    margin-bottom: 72px;
+  }
 }

@@ -33,6 +33,14 @@
     width: 190px;
   }
 
+  .portfolio-section .container {
+    width: 428px;
+  }
+
+  .tab-list {
+    width: 270px;
+  }
+
   .modal {
     width: 408px;
   }

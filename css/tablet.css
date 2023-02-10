@@ -221,4 +221,38 @@
   .footer .footer-input {
     width: 264px;
   }
+
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .portfolio-section .container {
+    width: 768px;
+  }
+
+  .portfolio-section .portfolio-list {
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .portfolio-list .item {
+    width: auto;
+  }
+
+  .portfolio-list .link {
+    width: 356px;
+  }
+
+  .tab-list {
+    width: auto;
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+
+  .tab-list .button {
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
 }

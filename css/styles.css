@@ -429,21 +429,10 @@ header .container {
   letter-spacing: 0.02em;
 }
 
-.portfolio-section .title {
-  margin-bottom: 8px;
-
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 1.2;
-
-  letter-spacing: 0.02em;
-}
-
 .benefits-section .paragraph {
   font-weight: 500;
 }
 
-.benefits-section .paragraph,
 .portfolio-section .paragraph {
   line-height: 1.5;
 
@@ -787,19 +776,23 @@ header .container {
   align-self: center;
 }
 
+/*-------------PORTFOLIO-PAGE-----------*/
+
 .portfolio-section {
-  padding-top: 96px;
-  padding-bottom: 120px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+
+.portfolio-section,
+.portfolio-section .container,
+.portfolio-list {
+  width: 100%;
 }
 
 .portfolio-section .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 48px 24px;
-}
-
-.portfolio-section img {
-  display: block;
+  row-gap: 48px;
 }
 
 .portfolio-section .item {
@@ -807,8 +800,14 @@ header .container {
 }
 
 .portfolio-section .title {
-  color: var(--main-text-color);
   margin-bottom: 8px;
+
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
 }
 
 .portfolio-section .wrapper {
@@ -823,6 +822,10 @@ header .container {
 .portfolio-list .wrapper:focus {
   border: 0.5px solid var(--main-background-color);
   border-top: none;
+}
+
+.portfolio-list .item {
+  width: 100%;
 }
 
 .portfolio-list .link {
@@ -843,23 +846,25 @@ header .container {
 }
 
 .tab-list {
+  margin-bottom: 48px;
   display: flex;
-  margin-bottom: 72px;
-  justify-content: center;
-}
-
-.tab-list .item:not(:last-child) {
-  margin-right: 24px;
+  flex-wrap: wrap;
+  justify-content: start;
+  row-gap: 16px;
+  column-gap: 24px;
 }
 
 .tab-list .button {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  padding-left: 24px;
-  padding-right: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 40px;
+  padding-left: 16px;
+  padding-right: 16px;
 
   font-family: var(--main-font);
-  font-weight: 700;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
 
@@ -886,8 +891,6 @@ header .container {
   border-color: transparent;
 }
 
-/*-----------------MODAL----------------*/
-
 .box {
   position: relative;
   overflow: hidden;
@@ -912,6 +915,8 @@ header .container {
 .overlay .paragraph {
   color: var(--main-background-color);
 }
+
+/*-----------------MODAL----------------*/
 
 .backdrop {
   position: fixed;
